@@ -1,0 +1,28 @@
+{
+  "name": "@moruteaven/matchabuild-plugin-utools",
+  "version": "0.1.0-dev.1",
+  "description": "matchabuild 的 uTools 插件：vite 产物 + 插件清单（plugin.json / preload / logo）",
+  "author": "MoruTeaven <me@MoruTeaven.com>",
+  "license": "MIT",
+  "keywords": [
+    "matchabuild",
+    "plugin",
+    "utools"
+  ],
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "default": "./src/index.mjs"
+    }
+  },
+  "files": [
+    "src"
+  ],
+  "peerDependencies": {
+    "@moruteaven/matchabuild": "^0.1.0-dev.1"
+  },
+  "devDependencies": {
+    "@moruteaven/matchabuild": "workspace:*"
+  }
+}
